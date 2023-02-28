@@ -1,0 +1,283 @@
+body {
+    background-color: #ffffff;
+    margin: auto;
+  }
+
+main{
+  
+  margin: 0%;
+  
+}
+  
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-family: verdana;
+  }
+
+h2, h3 {
+  color: #000000;
+  font-family: verdana;
+  font-weight: bolder;
+}
+  
+h4, h5, p {
+    font-family: verdana;
+    font-weight: lighter;
+    color: #121212;
+  }
+
+.table {
+  border: 0%;
+  width: 100%;
+  margin: 0;  
+
+}
+/* Button Styles as Class*/
+.button {
+
+}
+/* END of button styles */
+.nav-bar{
+    margin: 4px;
+    text-align: center;
+    float: right;
+    padding: 12px;
+}
+
+.footer {
+  margin: 4px;
+  color: #ff8e8e;
+  text-align: center;
+  font-family: verdana;
+  
+  padding: 12px;
+}
+
+
+
+.hero {
+  background-position: center;
+  background-image: linear-gradient(#ffffff00, #c1c1c1d1),url("/assets/img/zebra.png");
+  color: #ffffff;
+  padding-bottom: 80px;
+}
+
+.hero-image {
+  background-image: linear-gradient(#4343431b, #0000006f), url("/assets/img/2.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 18% 0% 18%;
+  font-size: 32px;
+  letter-spacing: 20px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #121212;
+}
+
+.logo {
+  margin: 8px;
+  align-content: center;
+  width: 50px;
+  height: 50px;
+}
+
+.cover {
+  background-image: url(/assets/img/zebra.png);
+  width: 100px;
+  height: 100px;
+  /* src: url("/assets/img/BGcover.jpg"); */
+}
+
+.menu {
+  margin: 8px;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Link Styles */
+/* unvisited link */
+a {
+  position: relative;
+  text-decoration: none;
+}
+
+/* Underline infor */
+
+a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #fbff25;
+  transform-origin: bottom right;
+  transition: transform 0.4s ease-out;
+}
+
+a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+/* mouse over link */
+
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+li {
+  /* display: block; */
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  /* margin: 0;
+  padding: 0; */
+  
+}
+
+li a:hover {
+  margin: 2px;
+  text-decoration: none;
+/* decorate hover */
+  cursor: pointer;
+  border-radius: 25px;
+  text-justify: auto;
+  background: #ffdedeaf;
+  padding: 8px 18px;
+  
+}
+
+tr {
+  margin: 0%;
+  align-items: center;
+  table-layout: auto;
+  width: 50%;
+}
+
+
+.active {
+  border-radius: 25px;
+  background: #ff7c7c;
+  padding: 8px 20px; 
+  
+  /* width: 200px;
+  height: 80px;   */
+  
+}
+
+.logo-text {
+  
+  font-family: serif;
+  font-weight: 100%;
+  color: #ffffff;
+  align-items: flex-end;
+  float: left;
+  padding-right: 120px;
+
+}
+/* END of Link Styles */
+
+.image-caption {
+  background-color: #ffffff;
+  padding: 50px;
+  width: 50%;
+  
+}
+
+.image-caption_low {
+  padding-top: 28%;
+  width: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.image-block {
+  margin: 0%;
+  padding: 0%;
+  
+}
+
+.image-box {
+  width: 100%;
+}
+
+.heading-caption{
+  font-size: larger;
+
+}
+.underline :hover {
+  color: #ffe100;
+  background-color: transparent;
+  text-decoration: underline;
+  border-width: 12px;
+}
+
+.text-wrap {
+  padding: 18%;
+  width: 60%;
+}
+
+.text-wrap_low {
+  padding: 45% 0% 0% 19%;
+  width: 60%;
+  color: #fdfaff;
+}
+
+.user-image {
+  width: 15%;
+}
+
+.testimonial {
+  font-family: serif;
+  color: #ffffff;
+  padding: 4%;
+  width: 33%;
+  flex: auto;
+}
+
+.gallery-pics { 
+  width: 500px;
+  height: 500px;
+  background-color: #e2ff22;
+  padding-top: 5%;
+}
+
+.socio-icon {
+  height: 30px;
+  width: 30px;
+  padding: 15px;
+}
+
+.pagedown {
+  height: 100px;
+  width:100px;
+  padding: 80px 900px 0px 0px;
+}
+
+.socio-icon :hover {
+  color: #e2ff22 !important;
+}
